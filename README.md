@@ -6,13 +6,22 @@
 
 AlSchool is a multi-agent retrieval-augmented educational platform designed to deliver grounded, personalized learning support with auditable reasoning traces.
 
+## Repository Identity (Important)
+
+This is the **canonical active repository** for the project.
+
+- `fbenkhelifa/alschool` ✅ Active project identity and future development
+- `fbenkhelifa/ai-school-website` 🗂️ Legacy alias/artifact repository for historical coursework assets
+
+If you are exploring or referencing this project, use **`alschool`** as the source of truth.
+
 ## What is this
 
-AlSchool is an AI education platform that combines multiple specialized agents with a RAG pipeline to answer learner questions using trusted course knowledge. It exists to improve answer quality, reduce hallucinations, and make educational AI outputs more explainable.
+AlSchool is an AI education platform that combines multiple specialized agents with a RAG pipeline to answer learner questions using trusted course knowledge.
 
 ## Why it exists
 
-General LLM chat experiences are often not enough for coursework support because they lack domain grounding, consistency checks, and pedagogical adaptation. AlSchool addresses this by orchestrating role-specific agents over a curated knowledge base.
+General LLM chat experiences are often insufficient for coursework support because they can lack grounding, consistency checks, and pedagogical adaptation.
 
 ## Architecture / Stack
 
